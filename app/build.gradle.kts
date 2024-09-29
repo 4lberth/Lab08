@@ -72,5 +72,9 @@ dependencies {
     // Agrega la dependencia de room-ktx para soporte de corrutinas
     implementation("androidx.room:room-ktx:$room_version")
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:$room_version")
+    implementation("androidx.compose.ui:ui:1.0.0")
+    implementation("androidx.compose.material:material:1.0.0")
+    implementation("androidx.compose.ui:ui-tooling:1.0.0")
+
 
 }
